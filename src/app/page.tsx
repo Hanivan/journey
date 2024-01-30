@@ -1,15 +1,12 @@
-"use client";
-
-import Terminal from "@/components/statefull/Terminal";
-import Footer from "@/components/stateless/Footer";
+import { Button, Container, Flex, Text } from "@radix-ui/themes";
 
 export default function Home() {
   return (
-    <>
-      <main className="bg-canvas min-h-screen flex flex-col justify-center">
-        <Terminal />
-      </main>
-      <Footer />
-    </>
+    <Container>
+      <Flex direction="column" gap="2">
+        <Text>Hello from Radix Themes :)</Text>
+        <Button radius="full">Let's go</Button>
+      </Flex>
+    </Container>
   );
 }
