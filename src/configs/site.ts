@@ -5,6 +5,10 @@ export const siteConfig = {
   description: "Teu Nyaho",
   navItems: [
     {
+      label: "Home",
+      href: "/",
+    },
+    {
       label: "About",
       href: "/about",
     },
@@ -16,9 +20,9 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "",
+    github: "https://github.com/Hanivan",
     twitter: "",
-    docs: "",
+    notnime: "https://notnime.vercel.app",
     discord: "",
     sponsor: "",
   },
