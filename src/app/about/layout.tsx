@@ -1,5 +1,5 @@
-import { BaseLayoutProps } from "@/types/LayoutProps";
+import { LayoutProps } from "@/types/LayoutProps";
 
-export default function AboutLayout({ children }: BaseLayoutProps) {
+export default function AboutLayout({ children }: LayoutProps) {
   return <section>{children}</section>;
 }
