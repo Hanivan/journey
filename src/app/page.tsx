@@ -19,7 +19,6 @@ export default function Home() {
 
   return (
     <Flex direction="column" gap="2">
-      <h1 className="text-3xl">Anjrittt</h1>
       <time>{currentTime.toFormat("HH:mm:ss")}</time>
       <time>{currentTime.toFormat("X")}</time>
     </Flex>

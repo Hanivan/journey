@@ -1,4 +1,3 @@
-import { Navbar } from "@/components/statefull/Navbar";
 import { fontSans } from "@/configs/fonts";
 import { siteConfig } from "@/configs/site";
 import { LayoutProps } from "@/types/LayoutProps";
@@ -28,7 +27,7 @@ export default function RootLayout({ children }: LayoutProps) {
         >
           <QueryProviders>
             <Theme>
-              <Navbar />
+              {/* <Navbar /> */}
               <main className="min-h-screen">
                 <Container>{children}</Container>
               </main>
